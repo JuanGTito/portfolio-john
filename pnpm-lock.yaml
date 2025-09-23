@@ -11,12 +11,6 @@ importers:
       '@heroicons/react':
         specifier: ^2.2.0
         version: 2.2.0(react@19.1.0)
-<<<<<<< HEAD
-=======
-      framer-motion:
-        specifier: ^12.23.18
-        version: 12.23.18(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
->>>>>>> b91376815c2acaf4ab817a9eb8744821aaf06747
       next:
         specifier: 15.5.3
         version: 15.5.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
