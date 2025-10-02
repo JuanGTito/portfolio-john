@@ -13,7 +13,12 @@ Second, Install the packets:
 ```bash
 pnpm install
 pnpm add @heroicons/react
-
+pnpm add react-type-animation
+pnpm add framer-motion
+pnpm add resend
+pnpm add @react-email/render
+pnpm add react-animated-numbers
+pnpm add -D prettier
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
