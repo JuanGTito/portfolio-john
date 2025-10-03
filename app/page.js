@@ -14,7 +14,7 @@ export const metadata = {
   openGraph: {
     title: "Juan Tito | Full Stack Developer",
     description: "Conoce mis proyectos en desarrollo web y mobile",
-    url: "https://tu-dominio.com",
+    url: "https://Juantitodev.it.com",
     siteName: "Portafolio de Juan Tito",
     images: [
       {
