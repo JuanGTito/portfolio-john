@@ -27,6 +27,11 @@ export const metadata = {
     locale: "es_ES",
     type: "website",
   },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-32x32.png",
+    apple: "/favicon-180x180.png", // para iOS
+  },
 };
 
 export default function Home() {
