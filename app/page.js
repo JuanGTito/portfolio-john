@@ -7,6 +7,28 @@ import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
 
+export const metadata = {
+  title: "Juan Tito | Full Stack Developer",
+  description: "Portafolio de Juan Tito, desarrollador web y mobile especializado en Next.js, Laravel y Python.",
+  keywords: ["Desarrollador Web", "Next.js", "Laravel", "Python", "Portafolio"],
+  openGraph: {
+    title: "Juan Tito | Full Stack Developer",
+    description: "Conoce mis proyectos en desarrollo web y mobile",
+    url: "https://tu-dominio.com",
+    siteName: "Portafolio de Juan Tito",
+    images: [
+      {
+        url: "https://Juantitodev.it.com/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Portafolio de Juan Tito",
+      },
+    ],
+    locale: "es_ES",
+    type: "website",
+  },
+};
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">

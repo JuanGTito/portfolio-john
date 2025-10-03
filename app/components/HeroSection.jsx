@@ -17,12 +17,12 @@ const HeroSection = () => {
             >
                 <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl font-extrabold leading-snug">
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-teal-500 to-blue-500">
-                      Hello, I&apos;m{" "}
+                      Hola, soy{" "}
                     </span>
                     <br />
                     <TypeAnimation
                       sequence={[
-                        "Gedeon",
+                        "Juan Tito",
                         1000,
                         "Web Developer",
                         1000,
@@ -38,11 +38,11 @@ const HeroSection = () => {
                 </h1>
 
                 <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-                    Soy un desarrollador apasionado por la tecnología y la innovación. 
-                    Me especializo en crear soluciones web y móviles que combinan 
+                    Soy un <strong>desarrollador web y móvil</strong> apasionado por la tecnología y la innovación. 
+                    Me especializo en crear <strong>aplicaciones modernas</strong> que combinan 
                     funcionalidad, diseño atractivo y experiencias de usuario eficientes. 
-                    Mi objetivo es transformar ideas en productos digitales que aporten 
-                    valor real a las personas y las empresas.
+                    Mi objetivo es transformar ideas en <strong>productos digitales</strong> que 
+                    aporten valor real a las personas y las empresas.
                 </p>
                 <div>
                   <Link
